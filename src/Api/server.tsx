@@ -1,9 +1,9 @@
-let token = '63dba7b17976adf22132b69a8042ce098533fb08ae368c31'
+let token = '0e852d66341ca089e3717fd58ab0ead1eb90bb91c424fec7'
 
 
 export const server_calls = {
   get: async () => {
-    const response = await fetch(`https://malachite-lightning-whimsey.glitch.me/api/drinks`, {
+    const response = await fetch(`https://inexpensive-paint-dogwood.glitch.me/api/drinks`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ export const server_calls = {
   },
 
   create: async (data: any = {}) => {
-    const response = await fetch(`https://malachite-lightning-whimsey.glitch.me/api/drinks`, {
+    const response = await fetch(`https://inexpensive-paint-dogwood.glitch.me/api/drinks`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ export const server_calls = {
   },
 
   update: async (id: string, data: any = {}) => {
-    const response = await fetch(`https://malachite-lightning-whimsey.glitch.me/api/drinks/${id}`, {
+    const response = await fetch(`https://inexpensive-paint-dogwood.glitch.me/api/drinks/${id}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ export const server_calls = {
   },
 
   delete: async (id: string) => {
-    const response = await fetch(`https://malachite-lightning-whimsey.glitch.me/api/drinks/${id}`, {
+    const response = await fetch(`https://inexpensive-paint-dogwood.glitch.me/api/drinks/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
